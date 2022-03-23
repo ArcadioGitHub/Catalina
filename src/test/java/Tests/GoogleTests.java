@@ -13,6 +13,7 @@ public class GoogleTests extends PageObject {
     GooglePageObjects googlePageObjects;
 
     public void abrirNevegador(){
+
         getDriver().get("https://www.google.com/");
     }
 
